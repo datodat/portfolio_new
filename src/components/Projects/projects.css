@@ -1,0 +1,40 @@
+.projects {
+  width: 100%;
+  padding: 0 20px;
+}
+
+.projects > h2 {
+  font-size: 56px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--white);
+}
+
+.projects > hr {
+  background-color: var(--white);
+  border: none;
+  height: 1px;
+}
+
+.projects-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+
+  padding: 25px 20px;
+}
+
+@media (max-width: 480px) {
+  .projects {
+    padding: 0;
+  }
+  .projects > h2 {
+    font-size: 30px;
+    padding-top: 10px;
+  }
+  .projects-div {
+    padding: 25px 0;
+  }
+}
