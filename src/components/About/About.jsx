@@ -1,7 +1,7 @@
 // Css
-import './homepage.css';
+import './about.css';
 
-const Homepage = () => {
+const About = () => {
   return (
     <div className='about'>
       <h1 className='name'>hi, my name is <span>dato</span></h1>
@@ -51,4 +51,4 @@ const Homepage = () => {
   );
 }
 
-export default Homepage;
+export default About;

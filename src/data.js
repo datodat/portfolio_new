@@ -1,17 +1,17 @@
 export const projectsArray = [
   {
-    name: 'E-Commerce',
-    tools: 'ReactJS - ExpressJS - MongoDB',
-    img: './assets/shop.png',
-    github: 'https://github.com/datodat/e-commerce',
-    live: 'https://datos-shop.herokuapp.com/',
+    name: 'Space Tourism Website',
+    tools: 'ReactJS',
+    img: './assets/space.png',
+    github: 'https://github.com/datodat/space_tourism_website',
+    live: 'https://space-tourism-website-eight-pi.vercel.app/'
   },
   {
-    name: 'Posts',
-    tools: 'ReactJS - ExpressJS - MongoDB',
-    img: './assets/posts.png',
-    github: 'https://github.com/datodat/posts',
-    live: 'https://datos-posts.herokuapp.com/',
+    name: 'Rock-Papper-Scissors',
+    tools: 'HTML/CSS JS',
+    img: './assets/rockPaperScissors.png',
+    github: 'https://github.com/datodat/rock_papper_scissors',
+    live: 'https://rock-papper-scissors-one.vercel.app/'
   },
   {
     name: 'Countries',
@@ -19,6 +19,41 @@ export const projectsArray = [
     img: './assets/countries.png',
     github: 'https://github.com/datodat/Countries-app',
     live: 'https://countries-app-lac.vercel.app/',
+  },
+  {
+    name: 'E-Commerce',
+    tools: 'ReactJS - ExpressJS - MongoDB',
+    img: './assets/shop.png',
+    github: 'https://github.com/datodat/e-commerce',
+    live: 'https://datos-shop.herokuapp.com/',
+  },
+  {
+    name: 'Redberry Test app',
+    tools: 'ReactJS',
+    img: './assets/redberry.png',
+    github: 'https://github.com/datodat/redberry',
+    live: 'https://redberry-theta.vercel.app/',
+  },
+  {
+    name: 'Notes',
+    tools: 'ReactJS - MaterialUI',
+    img: './assets/notes.png',
+    github: 'https://github.com/datodat/notes',
+    live: 'https://notes-sandy.vercel.app/'
+  },
+  {
+    name: 'Todos',
+    tools: 'SASS JS',
+    img: './assets/todos.png',
+    github: 'https://github.com/datodat/todos_vanillaJS-sass',
+    live: 'https://todos-vanilla-js-sass.vercel.app/'
+  },
+  {
+    name: 'Posts',
+    tools: 'ReactJS - ExpressJS - MongoDB',
+    img: './assets/posts.png',
+    github: 'https://github.com/datodat/posts',
+    live: 'https://datos-posts.herokuapp.com/',
   },
   {
     name: 'GitHub Users',
@@ -54,13 +89,6 @@ export const projectsArray = [
     img: './assets/quotes.png',
     github: 'https://github.com/datodat/Random-Quotes',
     live: 'https://random-quotes-gamma.vercel.app/',
-  },
-  {
-    name: 'Redberry Test app',
-    tools: 'ReactJS',
-    img: './assets/redberry.png',
-    github: 'https://github.com/datodat/redberry',
-    live: 'https://redberry-theta.vercel.app/',
   },
   {
     name: 'Weather app',

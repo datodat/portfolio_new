@@ -1,13 +1,17 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 // Css
 import './projects.css';
 // Card
 import Card from './Card/Card';
-// Projects
-import { projectsArray } from '../../data';
 
-const Projects = () => {
-  const [projectsData] = useState(projectsArray);
+const Projects = ({ projects }) => {
+  const [projectsArr, setProjectsArr] = useState([]);
+  
+  useEffect(() => {
+    if(projects){
+      setProjectsArr(projects);
+    }
+  }, [projects])
 
   return (
     <div className='projects'>
@@ -15,7 +19,8 @@ const Projects = () => {
       <hr />
       <div className='projects-div'>
         {
-          projectsData.length > 0 && projectsData.map(i => <Card key={i.name} project={i} />)
+          projectsArr?.length > 0 && 
+          projectsArr.map(i => <Card key={i.name} project={i} />)
         }
       </div>
     </div>

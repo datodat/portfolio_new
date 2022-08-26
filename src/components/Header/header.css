@@ -73,6 +73,8 @@
   transform: rotate(45deg) translate(-10px, -8px);
 }
 
+/* R E S P O N S I V E */
+
 @media (max-width: 480px) {
   .header {
     height: 75.2px;

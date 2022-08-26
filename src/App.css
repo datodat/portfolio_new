@@ -4,8 +4,21 @@
   --red: #be3144;
   --blue: #45567d;
   --gray: #303841;
+  --green: #1c871c;
+  --light-gray: #828282;
   --white: #f0f0f0;
   --header: #222828;
+}
+
+body::-webkit-scrollbar {
+  width: 3px;
+  background-color: var(--gray);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--gray);
+}
+body::-webkit-scrollbar-track {
+  background-color: var(--light-gray);
 }
 
 * {

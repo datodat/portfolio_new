@@ -26,6 +26,8 @@
   padding: 25px 20px;
 }
 
+/* R E S P O N S I V E */
+
 @media (max-width: 480px) {
   .projects {
     padding: 0;
